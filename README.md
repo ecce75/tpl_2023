@@ -3,12 +3,19 @@ Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus katab vee
 
 ## Kursuse Ülevaade
 
-1. **Sissejuhatus veebiarendusse ja tööriistade seadistamine**
-2. **HTML alused**
-3. **CSS alused ja stiilimine**
-4. **JavaScripti sissejuhatus**
-... [jätkake ülejäänud tundide loeteluga]
-
+1. **Sissejuhatus veebiarendusse, HTML alused ja tööriistade seadistamine**
+2. **CSS: Stiilimise alused**
+3. **Täpsem CSS: Paigutused ja Flexbox**
+4. **JavaScripti (JS) sissejuhatus: Põhitõed ja süntaks**
+5. **JS: DOM manipulatsioon ja sündmused**
+6. **JS: Funktsioonid ja ulatus**
+7. **CSS Grid**
+8. **JS: Massiivid ja tsüklid**
+9. **JS: Objektid ja JSON**
+10. **HTML, CSS ja JS integreerimine: Lihtsa veebirakenduse ehitamine**
+11.-14. **???***
+15. **Iseseisevtöö**
+16. **Projekti esitlused ja kursuse lõpetamine**
 ## Kuidas Materjale Kasutada
 
 1. **Kloonige see repositoorium**: Kasutage käsku `git clone [repo URL]` oma arvutisse materjalide allalaadimiseks.
