@@ -14,7 +14,7 @@
     <!-- Content goes here -->
 </body>
 </html>
-```html
+```
 
 ## Common Elements
 ### Headings
@@ -26,44 +26,44 @@
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
-```html
+```
 
 ### Paragraph
 
 ```html
 <p>This is a paragraph.</p>
-```html
+```
 
 ### Links
 
 ```html
 <a href="https://www.example.com">Visit Example</a>
-```html
+```
 
 ### Images
 
 ```html
 <img src="image.jpg" alt="Description of Image">
-```html
+```
 
 ### Lists
-#### Unordered lists
+**Unordered lists**
 ```html
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
 </ul>
-```html
+```
 
-#### Ordered lists
+**Ordered lists**
 ```html
 <ol>
     <li>First Item</li>
     <li>Second Item</li>
     <li>Third Item</li>
 </ol>
-```html
+```
 
 ### Forms
 
@@ -73,19 +73,19 @@
     <input type="text" id="name" name="name">
     <input type="submit" value="Submit">
 </form>
-```html
+```
 ### Comments
 
 ```html
 <!-- This is a comment -->
-```html
+```
 ### Text Formatting
 
 ```html
 <strong>Bold Text</strong>
 <em>Italic Text</em>
 <code>Inline Code</code>
-```html
+```
 ### Tables
 
 ```html
@@ -107,12 +107,12 @@
         </tr>
     </tbody>
 </table>
-```html
+```
 ### Div and Span
 
 ```html
 <div>This is a block-level element.</div>
 <span>This is an inline element.</span>
-```html
+```
 
 
