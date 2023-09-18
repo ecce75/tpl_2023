@@ -1,0 +1,94 @@
+/* Wild background gradient */
+body {
+    background: linear-gradient(45deg, #FF69B4, #8A2BE2, #20B2AA);
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #FFD700;
+}
+
+/* Rainbow headings */
+h1, h2, h3 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Neon links */
+a {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #FF00FF, 0 0 20px #FF00FF, 0 0 25px #FF00FF, 0 0 30px #FF00FF;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #FF00FF;
+    text-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 15px #00FF00, 0 0 20px #00FF00, 0 0 25px #00FF00, 0 0 30px #00FF00;
+}
+
+/* Rotating images */
+img {
+    transform: rotate(20deg);
+    border: 5px dashed #FF4500;
+    transition: all 0.5s ease;
+}
+
+img:hover {
+    transform: rotate(-20deg);
+}
+
+/* Psychedelic form fields */
+input[type="text"], input[type="email"] {
+    background-color: #7FFF00;
+    color: #8B008B;
+    border: 3px dotted #FF4500;
+}
+
+input[type="submit"] {
+    background-color: #FFD700;
+    color: #8B008B;
+    border: 3px double #FF4500;
+    cursor: pointer;
+    transform: skewX(-20deg);
+}
+
+input[type="submit"]:hover {
+    background-color: #FF4500;
+    transform: skewX(20deg);
+}
+
+/* Animated table */
+table {
+    animation: float 5s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Inverted blockquote */
+blockquote {
+    background-color: #000;
+    border-left: 5px solid #FFD700;
+}
+
+/* Flashing video, audio, and iframe */
+video, audio, iframe {
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}

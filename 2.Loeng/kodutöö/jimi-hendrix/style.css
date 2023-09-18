@@ -1,0 +1,203 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    background-image: url("images/header-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.site-title {
+    font-size: 140px;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.header-image {
+    width: 40%;
+    border-radius: 80px;
+}
+
+.text-content {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 1260px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.guitar-collection {
+    width: calc(40% + 240px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #111;
+    border-radius: 40px;
+    color: white;
+    position: relative;
+}
+
+.guitar-collection-wrapper {
+    display: block;
+    position: relative;
+}
+
+.yellow-underlay {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 10%;
+    left: 0;
+    z-index: 0;
+    background-color: #3f3f3f;
+}
+
+.guitar-showcase {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.guitar-image {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    border: 20px solid white;
+}
+
+.guitar-content {
+    
+}
+
+.guitar-meta-item strong {
+    color: yellow;
+}
+
+.songs {
+    width: calc(40% + 80px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 40px;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+.song-title {
+    color: yellow;
+}
+
+.songs audio {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.site-footer {
+    background-color: #3f3f3f;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    padding: 20px;
+}
+
+.site-footer a {
+    color: yellow;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .site-title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .songs {
+        width: calc(100% - 40px);
+    }
+
+    .text-content {
+        max-width: calc(100% - 40px);
+    }
+
+    .photo-gallery {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .gallery-item {
+        width: 100%;
+    }
+
+    .gallery-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .guitar-collection {
+        width: 100%;
+    }
+
+    h3, .content-title {
+        text-align: center;
+    }
+
+    .guitar-title {
+        text-align: left
+    }
+}
