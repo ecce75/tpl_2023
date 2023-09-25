@@ -24,10 +24,9 @@ Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus katab vee
 
 ## Kasulikud Lingid
 
-- [MDN Web Docs](https://developer.mozilla.org/et/)
-- [W3Schools](https://www.w3schools.com/)
 - [HTML õpetus](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 - [CSS õpetus](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
+- [CSS W3 õpetus](https://www.w3schools.com/css/default.asp)
 - [HTML & CSS Cheatsheet](https://acchou.github.io/html-css-cheat-sheet/html-css-cheat-sheet.html)
 - [HTML näited](https://www.w3schools.com/html/html_examples.asp)
 - [JavaScripti õpetus](https://javascript.info/)

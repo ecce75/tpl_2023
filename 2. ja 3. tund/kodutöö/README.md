@@ -22,4 +22,6 @@ Google ja Chat-GPT on sinu parimad sõbrad. Ära karda otsida abi või inspirats
 ## Kasulikud lingid
 [HTML Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 [CSS Styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Styling_a_biography_page)
+[Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+
 
