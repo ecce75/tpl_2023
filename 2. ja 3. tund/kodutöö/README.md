@@ -1,6 +1,6 @@
 # Kodutöö 18.09
 
-Loo oma esimene veebileht. test
+Loo oma esimene veebileht.
 
 Tee lahe veebileht mingi isiku või mõne sulle meeldiva teema kohta
 Veendu, et lehel oleks erinevaid komponente, nagu pildid, erinevad tekstistiilid ja värvid.
