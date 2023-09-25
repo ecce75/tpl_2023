@@ -7,7 +7,7 @@ Veendu, et lehel oleks erinevaid komponente, nagu pildid, erinevad tekstistiilid
 
 ## Juhised:
 ### Komponendid ja Kujundus:
-Katseta erinevate `<div>` elementidega ja paiguta teksti- ja pildisisu erinevatesse "kastidesse", et luua huvitavaid visuaale.
+Katseta erinevate div elementidega ja paiguta teksti- ja pildisisu erinevatesse "kastidesse", et luua huvitavaid visuaale.
 Kasuta erinevaid HTML ja CSS elemente. Proovi nimekirju, linke, nuppe ja kõike muud, mida oleme tundides läbi teinud. Kasuta div elemente ja loominguline.
 ### Inspiratsioon:
 Kui vajad inspiratsiooni, vaata 2.Loeng/kodutöö/jimi-hendrix lehte kui näidist. On okei kopeerida sealt mõnda elementi, peaasi et su leht siiski omanäoline oleks.
