@@ -5,7 +5,7 @@ Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus katab vee
 
 1. **Kursuse tutvustus, töökeskkonna seadmine**
 2. **Sissejuhatus veebiarendusse, HTML alused**
-3. **CSS: Stiilimise alused, paigutumine ja flexbox**
+3. **CSS: Stiilimise alused**
 4. **JavaScripti (JS) sissejuhatus: Põhitõed ja süntaks**
 5. **JS: DOM manipulatsioon ja sündmused**
 6. **JS: Funktsioonid ja ulatus**
@@ -18,9 +18,11 @@ Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus katab vee
 16. **Projekti esitlused ja kursuse lõpetamine**
 ## Kuidas Materjale Kasutada
 
-1. **Kloonige see repositoorium**: Kasutage terminalis käsku `git clone [repo URL]` oma arvutisse materjalide allalaadimiseks.
-2. **Sirvige kaustu**: Iga tund on oma kaustas, mis sisaldab vastavaid õppematerjale ja koodinäiteid.
-3. **Kasutage lisalinke**: README faili lõpus on kasulikud lingid, mis aitavad teil teemasid sügavamalt mõista.
+1. **Kloonige see repositoorium**:
+   - Avage "Terminal" ja minge oma koodi kausta kirjutades `cd desktop/kood`, juhul kui koodi kaust puudub, loo uus kaust nimega "kood"
+   - Seejärel kasutage käsku `git clone https://github.com/ecce75/tpl_2023` oma arvutisse materjalide allalaadimiseks.
+3. **Sirvige kaustu**: Iga tund on omas kaustas, mis sisaldab vastavaid õppematerjale ja koodinäiteid.
+4. **Kasutage lisalinke**: README faili lõpus on kasulikud lingid, mis aitavad teil teemasid sügavamalt mõista.
 
 ## Kasulikud Lingid
 
