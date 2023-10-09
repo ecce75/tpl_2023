@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'roboto', sans-serif;
+}
+
+.box:nth-child(odd) {
+    background-color: #e74c3c;
+    font-family: 'Monotype Corsiva', cursive;
+} 
