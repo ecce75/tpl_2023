@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulaator</title>
+</head>
+<body>
+    <h1> Kalkulaator</h1>
+
+    <script>
+        function liitmine(a, b) {
+            return a + b;
+        }
+
+        function lahutamine(a, b){
+            return a - b;
+        }
+        function korrutamine(a, b){
+            return a * b;
+        }
+        function jagamine(a, b) {
+            if (b === 0) {
+                return "Nulliga ei saa jagada.";
+            }
+            return  a / b;
+        }
+        while (true) {
+            let num1  = parseFloat(prompt("Sisesta esimene arv:"));
+            let num2  = parseFloat(prompt("Sisesta teine arv:"));
+
+            let tehe = prompt("Vali tehe +, -, *, /");
+
+            let tulemus;
+
+            switch(tehe) {
+                case "+":
+                    tulemus = liitmine(num1, num2);
+                    break;
+                case "-":
+                    tulemus = lahutamine(num1, num2);
+                    break;
+                case "*":
+                    tulemus  = korrutamine(num1, num2);
+                    break;
+                case "/":
+                    tulemus  = jagamine(num1, num2);
+                    break;   
+                default:
+                    alert("Vigane tehe.");
+                    break; 
+            }
+            alert("Tulemus: " + tulemus);
+
+            let uuesti = confirm("Kas soovid uuesti arvutada?");
+            if (!uuesti) {
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
+
