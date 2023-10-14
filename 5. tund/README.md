@@ -145,8 +145,14 @@ console.log("Tere, " + nimi + "!");
 ## Lihtne Kalkulaator
 Ülesanne on luua lihtne kalkulaator, mis suudab teha nelja põhilist matemaatilist toimingut: liitmine, lahutamine, korrutamine ja jagamine.
 
-## Arvu äraarvamine
+## Arvu äraarvamine (**Kodune Töö**)
 Ülesanne on luua programm, mis aitab kasutajal ära arvata juhuslikult genereeritud arvu, vahemikus 1 kuni 100.
+
+- Esialgu peab programm juhuslikult genereerima arvu 1 ja 100 vahel.
+- Seejärel läheb kasutajalt tarvis sisendit, kasutades `prompt` funktsiooni 
+    - `prompt` annab `string`-i välundiks, leia moodus kuidas see arvuks ehk `int` tüüpi muuta
+- Programm annab sõnumi kas valitud arv on genereeritud arvust suurem või väiksem (tingimuslaused)
+- Juhul kui arvud on võrdsed, annab programm vastuse, et oled arvu ära arvanud
 
 ## Lingid
 [The Weird History of Javascript](https://www.youtube.com/watch?v=Sh6lK57Cuk4)
