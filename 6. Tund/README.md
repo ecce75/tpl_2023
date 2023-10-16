@@ -9,7 +9,7 @@ Harjutused ei pruugi raskusastme poolest suureneda, kuid nad tutvustavad JavaScr
 - Kui ülesanne lahendatud, kutsu funktsioon üles
 
 ## Kodune töö
-- Lahedada kõik harjutused
+- Lahedada kõik harjutused ja laadida oma reposse üles
 
 
 ## Meeldetuletus
