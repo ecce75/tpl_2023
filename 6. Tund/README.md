@@ -11,6 +11,7 @@ Harjutused ei pruugi raskusastme poolest suureneda, kuid nad tutvustavad JavaScr
 ## Kodune töö
 - Lahedada kõik harjutused
 
+
 ## Meeldetuletus
 ### Võrdlusoperaatorid:
 * `===` (range võrdsus)
