@@ -8,6 +8,8 @@ Harjutused ei pruugi raskusastme poolest suureneda, kuid nad tutvustavad JavaScr
 - Seejärel loo `main.js`, kuhu kirjutad iga ülesande lahenduse eraldi funktsiooni, nt. `function harjutus1() {}` jne
 - Kui ülesanne lahendatud, kutsu funktsioon üles
 
+## Kodune töö
+- Lahedada kõik harjutused
 
 ## Meeldetuletus
 ### Võrdlusoperaatorid:
