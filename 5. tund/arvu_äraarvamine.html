@@ -1,0 +1,36 @@
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbri Äraarvamine</title>
+</head>
+<body>
+    <h1>Numbri Äraarvamine</h1>
+    
+    <script>
+        // Genereerime juhusliku numbri vahemikus 1 kuni 100
+        var õigeNumber = Math.floor(Math.random() * 100) + 1;
+
+        // Funktsioon, mis küsib kasutajalt numbri ja annab tagasisidet
+        function arvaNumbrit() {
+            var kasutajaArv = parseInt(prompt("Palun arvake number vahemikus 1 kuni 100:"));
+
+            if (isNaN(kasutajaArv)) {
+                alert("See pole kehtiv number. Palun sisestage number.");
+                return;
+            }
+
+            if (kasutajaArv < õigeNumber) {
+                alert("Teie arvatud number on liiga väike. Proovige suuremat arvu.");
+            } else if (kasutajaArv > õigeNumber) {
+                alert("Teie arvatud number on liiga suur. Proovige väiksemat arvu.");
+            } else {
+                alert("Õige! Te arvasite numbri " + õigeNumber + " ära!");
+            }
+        }
+
+        // Kutsuge funktsioon arvaNumbrit välja
+        arvaNumbrit();
+    </script>
+</body>
+</html>
