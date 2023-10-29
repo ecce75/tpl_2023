@@ -1,5 +1,5 @@
 
-# Tund 6. JavaScripti harjutused
+# JavaScripti harjutused
 Täna harjutame mõningaid põhilisi programmeerimisalgoritme. See aitab sul paremini tutvuda oluliste võtmesõnade ja kontseptsioonidega.
 Harjutused ei pruugi raskusastme poolest suureneda, kuid nad tutvustavad JavaScripti erinevaid aspekte ükshaaval.
 
@@ -61,7 +61,7 @@ Kirjuta funktsioon, mis võtab sisendiks nime ja prindib konsooli tervituse, koo
 `function harjutus1(nimi) {}`
 
 ## Ülesanne 2
-Kirjuta funktsioon, mis võtab 3 muutujat: auto mark, auto mudel ja auto värv. Programm peaks konsooli prindima järgmise lause: "Minu auto on punane Ford Mustang." `harjutus2(mark, mudel, värv)`
+Kirjuta funktsioon, mis võtab 3 muutujat: auto mark, auto mudel ja auto värv ja prindib konsooli järgmise lause: "Minu auto on punane Ford Mustang." `harjutus2(mark, mudel, värv)`
 
 ## Ülesanne 3
 Kirjuta funktsioon, mis võtab sisendiks püramiidi põhja pindala ja kõrguse, leiab püramiidi ruumala ja prindib selle lausena.
@@ -81,10 +81,10 @@ if (myName.length > 3) {
 ```
 
 ## Ülesanne 4
-Kirjuta funktsioon, mis võtab sisendiks nime ja väljastab selle lühendatud kujul. Kui nimi on pikem kui 5 tähemärki, lõigatakse nimi 5. tähemärgini ja lisatakse "..." lõppu. Kui nimi on 5 tähemärki või lühem, jääb see muutumatuks.
+Kirjuta funktsioon, mis võtab sisendiks nime ja prindib selle lühendatud kujul. Kui nimi on pikem kui 5 tähemärki, lõigatakse nimi 5. tähemärgini ja lisatakse "..." lõppu. Kui nimi on 5 tähemärki või lühem, jääb see muutumatuks.
 
 ## Ülesanne 5
-Kirjuta funktsioon, mis võtab sisendiks stringi ja tagastab selle pööratud versiooni. Kasuta selleks meetodeid nagu `split`, `reverse` ja `join`.
+Kirjuta funktsioon, mis võtab sisendiks stringi ja prindib selle pööratud versiooni. Kasuta selleks meetodeid nagu `split`, `reverse` ja `join`.
 
 # Tsüklid (Loop)
  * For - kui tead, mitu korda soovid koodi korrata.
