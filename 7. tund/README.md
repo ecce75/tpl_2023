@@ -1,6 +1,9 @@
 # Javascripti harjutused II
 Tänases tunnis jätkame javascripti ülesannete lahendamisega. Loo oma repos "js_harjutused" kausta uus file nimega "main2.js". Sinna kirjutad kõik tänase tunni lahendused. Funktsioonid nimeta ülesande nime järgi, nt. `function suurim(...) {...}`. Ära unusta *linkida* oma vast loodud js file html-iga.
 
+## Kodutöö
+Lahendada ülesanded lõpuni ja laadida reposse üles.
+
 ### Meeldetuletus
 - Väljastama - `return`
 - Printima - `console.log()`
