@@ -1,5 +1,4 @@
 function harjutus1(nimi) {
-    console.log("Tere, ${nimi}");
     console.log("Tere, " + nimi);
 }
 
@@ -105,3 +104,4 @@ function harjutus12(inimesed) {
     console.log(`Inimese nimi, kellel on kõige lühem telefoninumber: ${lühimaTelefoninumbriga.nimi}`);
     console.log(`Inimesed, kelle e-posti aadress sisaldab sõna "eesti": ${sisaldabEesti.join(', ')}`);
 }
+
