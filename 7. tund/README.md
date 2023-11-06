@@ -37,5 +37,5 @@ Kirjuta funktsioon, mis prindib tähtedest koosneva mustrilise kujundi, kasutade
 *****
 ```
 
-## Ül. 20 
+## Ül. 20 algarv
 Kirjuta funktsioon, mis kontrollib ja prindib, kas antud arv on algarv või mitte, kasutades for-tsüklit.
