@@ -14,7 +14,14 @@
     <div id="output">Text will be displayed here.</div>
     
     <script>
-        
+        const inputField  = document.getElementById("textInput");
+        const updateButton = document.getElementById("updateButton");
+        const output =  document.getElementById("output");
+
+        updateButton.addEventListener('click', function()  {
+            const text = inputField.value;
+            output.textContent = text;
+        })
     </script>
 </body>
 </html>

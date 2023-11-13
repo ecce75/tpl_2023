@@ -43,6 +43,23 @@
         "https://loremflickr.com/320/240",
         "https://placebeard.it/700/500",
     ];
+    let index = 0
+    const galleryImg = document.getElementById('gallery-img')
+
+    function showImage(index) {
+        galleryImg.src = imageUrls[index]
+    }
+
+    function nextImage()  {
+        index = (index +  1) % imageUrls.length;
+        showImage(index);
+    }
+
+    function prevImage() {
+        index = (index - 1 + imageUrls.length) % imageUrls.length;
+        showImage(index);
+    }
+    showImage(index);
 
 </script>
 

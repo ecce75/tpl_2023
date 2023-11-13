@@ -41,6 +41,19 @@
 
     <script>
 
+        let progressBar = document.getElementById('progress-fill')
+        let progressText = document.getElementById('progress-text')
+        let vahe = 0;
+
+        function incrementProgress() {
+            if (vahe >= 100) {
+                vahe = 0
+            } else {
+                vahe += 10;
+            }
+            progressBar.style.width = `${vahe}%`
+            progressText.textContent = `${vahe}%`
+        }
     </script>
 
 </body>

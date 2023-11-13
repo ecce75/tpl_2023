@@ -14,7 +14,17 @@
     </ul>
 
     <script>
+      const itemInput = document.getElementById('item');
 
+    const addItemButton = document.getElementById('addItem');
+
+    const shoppingList = document.getElementById('shopping-list');  
+
+    addItemButton.addEventListener('click', function () {
+        const newItem = document.createElement('li');
+        newItem.textContent = itemInput.value;
+        shoppingList.appendChild(newItem);
+    })
     </script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 - Tuleta meelde kuidas käis piltide kuvamine `html`-is
 
 ## Ül. 2 progress-bar
-Sul on ette antud tühi *progress bar* ja nupp. Sinu ülesanne on lisada nupule funktsionaalsus, et nupuvajutusel suureneks riba laetued osa mingi arvu võrra
+Sul on ette antud tühi *progress bar* ja nupp. Sinu ülesanne on lisada nupule funktsionaalsus, et nupuvajutusel suureneks riba laetud osa mingi arvu võrra
 - Kuna CSS on dokumendi objektidele juba lisatud, tuleb sul muuta vaid `progress-fill` elemendi laiust (`.style.width`) nupuvajutusel.
 - Vahe, mille võrra `progress-fill` nupuvajutusel muutub, valite ise
 - Ärge unustage muuta ka riba sees olev tekst.
