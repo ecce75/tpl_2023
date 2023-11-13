@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #image-container {
+            text-align: center;
+        }
+
+        #gallery-img {
+            max-width: 100%;
+            max-height: 400px;
+            margin: 20px 0;
+        }
+
+        button {
+            margin: 10px;
+            padding: 8px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Pildigalerii</title>
+</head>
+<body>
+
+<div id="image-container">
+    <img id="gallery-img" src="" alt="Gallery Image">
+    <br>
+    <button onclick="prevImage()">Eelmine</button>
+    <button onclick="nextImage()">Järgmine</button>
+</div>
+
+<script>
+    const imageUrls = [
+        "https://source.unsplash.com/400x300/?technology",
+        "https://picsum.photos/500/350",
+        "https://loremflickr.com/320/240",
+        "https://source.unsplash.com/400x300/?technology",
+        "https://picsum.photos/500/350",
+        "https://source.unsplash.com/400x300/?technology",
+        "https://picsum.photos/500/350",
+        "https://loremflickr.com/320/240",
+        "https://placebeard.it/700/500",
+    ];
+
+</script>
+
+</body>
+</html>

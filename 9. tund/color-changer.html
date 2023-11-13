@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Changer</title>
+  <style>
+    #colorDiv {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 20px;
+    }
+
+    #changeColorBtn {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="colorDiv"></div>
+  <button id="changeColorBtn">Change Color</button>
+
+  <script>
+      // Funktsioon suvalise värvi genereerimiseks
+      function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+  </script>
+
+</body>
+</html>
