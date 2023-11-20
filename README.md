@@ -6,15 +6,17 @@ Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus katab vee
 1. **Kursuse tutvustus, töökeskkonna seadmine**
 2. **Sissejuhatus veebiarendusse, HTML alused**
 3. **CSS: Stiilimise alused**
-4. **JavaScripti (JS) sissejuhatus: Põhitõed ja süntaks**
-5. **JS: DOM manipulatsioon ja sündmused**
-6. **JS: Funktsioonid ja ulatus**
-7. **CSS Grid**
-8. **JS: Massiivid ja tsüklid**
-9. **JS: Objektid ja JSON**
-10. **HTML, CSS ja JS integreerimine: Lihtsa veebirakenduse ehitamine**
-11-14. **???**
-15. **Iseseisevtöö**
+4. **CSS Flexbox ja Grid**
+5. **JavaScripti (JS) sissejuhatus: põhitõed ja süntaks**
+6. **JS: funktsioonid ja harjutused**
+8. **JS: harjutused II**
+9. **JS: DOM manipulatsioon ja sündmused**
+10. **JS: DOM manipulatsioon ja sündmused II**
+11. **Vormi valideerimine**
+12. **JS raamistike tutvustus**
+13. **HTML, CSS ja JS integreerimine: lihtsa veebirakenduse ehitamine**
+14. **Iseseisev töö**
+15. **Iseseisev töö**
 16. **Projekti esitlused ja kursuse lõpetamine**
 ## Kuidas Materjale Kasutada
 
