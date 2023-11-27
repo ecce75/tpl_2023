@@ -60,6 +60,8 @@ fetch('https://api.example.com/data')
 
 Selleks läheb meil tarvis OpenWeatherMapi API võtit: `b1ea1a8e89cfd9a0329102568f84080d`
 
+API aadress: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+
 
 ## Iseseisev töö: API Integreerimine
 
