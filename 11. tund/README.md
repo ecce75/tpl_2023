@@ -1,4 +1,4 @@
-# API ja Responsive Design
+# API
 
 Täna me õppime kuidas erinevaid rakendusi omavahel ühendada kasutades API-sid
 

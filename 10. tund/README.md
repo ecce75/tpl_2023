@@ -144,7 +144,7 @@ Implementeeri vormi valideerimissüsteem registreerimisvormi jaoks, mis sisaldab
     - Parooli kinnitamine: Nõutav väli, peaks vastama sisestatud paroolile.
 
 ### 2. Vormi valideerimine ilma JS-ta
-Ülesanne on luua sama valideerimisloogika registreerimisvormile, kuid ilma et sa kasutaksid JavaScripti. 
+Ülesanne on luua sama valideerimisloogika registreerimisvormile, ilma et sa kasutaksid JavaScripti. 
 - Kriteeriumid väljadele jäävad samaks, ainukeseks erinevuseks on parooli kinnitamise välja kadumine, sest seda poleks võimalik ilma JavaScriptita kontrollida.
 
 ---
