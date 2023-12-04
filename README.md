@@ -1,5 +1,5 @@
 # tpl_2023
-Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus katab veebiarendusele omaseid tehnoloogiaid nagu HTML, CSS ja JavaScript. Siit leiate kõik kursuse materjalid, koodinäited ja kasulikud lingid.
+Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus hõlmab veebiarendusega seotud tehnoloogiaid nagu HTML, CSS ja JavaScript. Siit leiate kõik kursuse materjalid, koodinäited ja kasulikud lingid.
 
 ## Kursuse Ülevaade
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilmateade</title>
+</head>
+<body>
+    <h1>Ilmateade</h1>
+    <input type="text" id="city" placeholder="Sisesta linna nimi">
+    <button onclick="getWeather()">Kuva ilm </button>
+
+    <div id="weatherResult"></div>
+
+    <script>
+        function getWeather() {
+            const city = document.getElementById('city').value;
+            const apiKey = 'b1ea1a8e89cfd9a0329102568f84080d';
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json(); 
+                    })
+                .then (data => {
+                    displayWeather(data)
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function displayWeather(data) {
+            const weather = `Ilm linnas ${data.name}: ${data.weather[0].main}, temperatuur: ${data.main.temp}°C`
+            document.getElementById('weatherResult').innerText = weather;
+        }
+    </script>
+</body>
+</html>
