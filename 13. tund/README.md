@@ -2,11 +2,11 @@
 
 Tänases tunnis meenutame eelmiste tundide materjale ja õpime, kuidas integreerida kasutaja registreerimis- ja autentimissüsteemi oma veebisaidile. Tunni teises pooles saate alustada oma koduse tööga.
 
-## Login ja Registratsioon
+## Login ja registratsioon
 
 Kasutaja registreerimisel loob inimene uue konto, sisestades oma `kasutajanime` ja `parooli`. Seejärel salvestatakse need andmed turvaliselt serverisse. Kasutaja autentimisel (`login`) kontrollib süsteem sisestatud kasutajanime ja parooli vastavust serveris olevatele andmetele. Kui need klapivad, lubatakse kasutajal süsteemi siseneda.
 
-## Andmebaasid Kasutajaandmete Haldamiseks
+## Andmebaasid kasutajaandmete haldamiseks
 
 Päris tingimustes kasutatakse kasutajaandmete haldamiseks andmebaase nagu `MySQL`, `PostgreSQL` või `MongoDB`. Andmebaasid võimaldavad turvaliselt säilitada suures koguses andmeid, sealhulgas kasutajainfot nagu kasutajanimed ja paroolid. Oluline on märkida, et paroole ei tohiks kunagi säilitada nende algkujul, vaid krüpteeritud kujul (`hashimine`). See tagab, et isegi andmebaasi kompromiteerimisel ei oleks paroolid otseselt loetavad.
 
