@@ -1,4 +1,4 @@
-# Kasutaja registreerimine ja autenteerimine
+# Kasutaja registreerimine ja autentime
 
 Tänases tunnis meenutame eelmiste tundide materjale ja õpime, kuidas integreerida kasutaja registreerimis- ja autentimissüsteemi oma veebisaidile. Tunni teises pooles saate alustada oma koduse tööga.
 
