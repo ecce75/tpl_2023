@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Registration</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 93%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+
+        <div class="form-section">
+            <h2>Register</h2>
+            <form action="/register" method="post">
+                <div class="form-group">
+                    <input type="text" name="newUsername" placeholder="New Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="newPassword" placeholder="New Password" required>
+                </div>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
