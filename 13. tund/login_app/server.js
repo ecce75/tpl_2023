@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const fs = require('fs'); // Required to read HTML files
+const fs = require('fs');
 
 const app = express();
 let users = {
