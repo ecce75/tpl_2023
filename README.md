@@ -12,12 +12,12 @@ Programmeerimiskursus Tallinna Prantsuse Lütseumi õpilastele. Kursus hõlmab v
 8. **JS: harjutused II**
 9. **JS: DOM manipulatsioon ja sündmused**
 10. **JS: DOM manipulatsioon ja sündmused II**
-11. **Vormi valideerimine**
-12. **JS raamistike tutvustus**
-13. **HTML, CSS ja JS integreerimine: lihtsa veebirakenduse ehitamine**
-14. **Iseseisev töö**
-15. **Iseseisev töö**
-16. **Projekti esitlused ja kursuse lõpetamine**
+11. **API-d**
+12. **Backend arendus**
+13. **Kasutaja registreerimine ja autentimine**
+14. **Kursusetöö**
+15. **Kursusetöö**
+16. **Projekti esitlused, tagasisidestamine ja kursuse lõpetamine**
 ## Kuidas Materjale Kasutada
 
 1. **Kloonige see repositoorium**:
